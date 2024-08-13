@@ -16,10 +16,10 @@
   * [Questions](#questions)
   
   ## Installation
-  
+  Start by down loading render. From there you can use npm run start to use the application.
 
   ## Usage
-  Please see some example screenshots here
+  Please see some example screenshots here as well as the deployed application at https://weatherwiz-1.onrender.com
 
   ## License
   MIT
