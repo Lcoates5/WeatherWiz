@@ -16,12 +16,12 @@ router.post('/', (req: Request, res: Response) => {
 });
 
 // TODO: GET search history
-router.get('/history', async (req: Request, res: Response) => {
+router.get('/history', async (_req: Request, res: Response) => {
   const history = await HistoryService.getCities();
   res.json(history);
 });
 
 // * BONUS TODO: DELETE city from search history
-router.delete('/history/:id', async (req: Request, res: Response) => {});
+router.delete('/history/:id', async (_req: Request, _res: Response) => {});
 
 export default router;
