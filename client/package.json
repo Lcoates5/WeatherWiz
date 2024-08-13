@@ -10,7 +10,7 @@
     "render-build": "npm install && npm run build"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.4",
     "vite": "^5.2.0"
   },
   "dependencies": {
