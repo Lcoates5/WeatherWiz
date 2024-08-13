@@ -4,7 +4,6 @@ dotenv.config();
 
 // Import the routes
 import routes from './routes/index.js';
-import path from 'path';
 
 const app = express();
 
